@@ -1,0 +1,106 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+body{
+  background-color: #F7F2E8;
+  color: #F7F2E8;
+}
+
+.img{
+  margin: 0 auto;
+  max-width: 850px;
+  width: 50%;
+}
+
+header, a{
+  font-size: 20px;
+  color: #F7F2E8;
+}
+
+.header{
+  background: rgb(86, 59, 148);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li{
+  margin-left: 10px;
+}
+
+.menu li a{
+  display: block;
+  padding: 10px;
+}
+
+.img{
+  width: 100%;
+}
+
+section{
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  width: 90%;
+  color: black;
+}
+
+hr{
+  color: rgb(86, 59, 148) ;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 20px;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+  
+.content-table thead tr {
+  background-color:  rgb(86, 59, 148);
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+  
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+  
+.content-table tbody tr {
+  border-bottom: 1px solid #000000;
+}
+  
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+  
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid  rgb(86, 59, 148);
+}
+  
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.paragrafo{
+  padding: 10px;
+}
